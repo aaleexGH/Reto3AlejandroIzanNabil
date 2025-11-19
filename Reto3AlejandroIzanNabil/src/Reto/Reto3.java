@@ -34,6 +34,9 @@ public class Reto3 {
 				System.out.println(Funciones3.contarvocales(n));
 				System.out.println(Funciones3.numerosenfrase(n));
 				System.out.println(Funciones3.palabracorta(n));
+				System.out.println(Funciones2.ContarPalabras(n));
+				System.out.println(Funciones2.invertirFrase(n));
+				System.out.println(Funciones2.palabraLarga(n));
 			
 			case 0:
 				System.out.println("Saliendo...");
