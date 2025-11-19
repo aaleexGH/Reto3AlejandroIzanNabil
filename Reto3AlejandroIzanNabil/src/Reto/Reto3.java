@@ -28,11 +28,13 @@ public class Reto3 {
 				Funciones1.menu1(sc);
 				break;
 			case 2:
-				Funciones1.menu1(sc);
-				break;
-			case 3:
-				Funciones1.menu1(sc);
-				break;
+				System.out.println("Dime una frase: ");
+				String n = sc.nextLine();
+				System.out.println(Funciones3.cifradosimple(n));
+				System.out.println(Funciones3.contarvocales(n));
+				System.out.println(Funciones3.numerosenfrase(n));
+				System.out.println(Funciones3.palabracorta(n));
+			
 			case 0:
 				System.out.println("Saliendo...");
 				break;
